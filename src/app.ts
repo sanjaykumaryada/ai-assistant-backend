@@ -4,6 +4,7 @@ import authRoutes from "./routes/authRoutes.js";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import aiRoutes from "./routes/aiRoutes.js";
+import documentRoutes from "./routes/documenRoutes.js";
 
 const app: express.Application = express();
 
@@ -29,6 +30,7 @@ app.get("/api/health", (req, res) => {
 app.use("/api/conversations", conversationRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/ai", aiRoutes);
+app.use("/api/documents", documentRoutes);
 
 app.get("/", (req, res) => {
   res.send({ message: "GenAI backend is running" });
