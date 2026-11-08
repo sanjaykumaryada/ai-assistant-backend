@@ -1,0 +1,1 @@
+{"version":3,"file":"chatService.d.ts","sourceRoot":"","sources":["../../src/services/chatService.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,UAAU,CAAC;AAchC,UAAU,gBAAgB;IACxB,cAAc,EAAE,MAAM,CAAC;IACvB,OAAO,EAAE,MAAM,CAAC;IAChB,OAAO,EAAE,MAAM,CAAC;CACjB;AAED,wBAAsB,kBAAkB,CAAC,KAAK,EAAE,gBAAgB;;;;;;;;;UAoJtD,sBAAsB;;;;;;;;;;;;;;;GAI/B"}
